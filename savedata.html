@@ -1,0 +1,30 @@
+
+<html>
+<body>
+	<div id="result"></div>
+	<script> 
+
+if (typeof(Storage) !== "undefined") {
+  // Store
+  localStorage.setItem("fName", "Smi");
+  // Retrieve
+  document.getElementById("result").innerHTML = localStorage.getItem("fName");
+  localStorage.setItem("lName","lilu");
+  document.getElementById("result").innerHMTL=localStorage.getItem("lName");
+
+  localStorage.setItem("age","28");
+		document.getElementById("result").innerHTML=localStorage.getItem("age");
+		localStorage.setItem("email","smi@gmail.com");
+		document.getElementById("result").innerHTML=localStorage.getItem("email");
+
+}
+
+
+		
+	
+
+</script>
+</body>
+</html>
+
+	
